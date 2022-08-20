@@ -74,7 +74,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
     savingAcount.innerText = saveingAccountMoney;
 
 
-    // const remainingBalanceField = document.getElementById('remaining-balance');
-    // const remainingBalance = totalBalanceValue - savingAcount;
-    // remainingBalanceField.innerText = remainingBalance;
+    const remainingBalanceField = document.getElementById('remaining-balance');
+    const remainingBalance = totalBalance - saveingAccountMoney;
+    remainingBalanceField.innerText = remainingBalance;
 })
