@@ -1,5 +1,6 @@
 
 
+
 document.getElementById('calculate-btn').addEventListener('click', function () {
     const incomeField = document.getElementById('input-income');
     const incomeFieldString = incomeField.value;
